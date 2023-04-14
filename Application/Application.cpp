@@ -15,9 +15,13 @@ int CoolClass::Calc(int a, int b)
     {
         return 2 * a;
     }
-    else
+    else if(a != b)
     {
         return a + b;
+    }
+    else
+    {
+        return a*b;
     }
     
 }
