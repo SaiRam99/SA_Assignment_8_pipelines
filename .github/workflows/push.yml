@@ -88,11 +88,11 @@ jobs:
       
     - name: addEmail
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git config --global user.email "olekaspt@mail.uc.edu"
+      run: git config --global user.email "sairam.surya27@gmail.com"
       
     - name: addName
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git config --global user.name "Patrick Olelas"
+      run: git config --global user.name "SaiRam99"
       
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}}
